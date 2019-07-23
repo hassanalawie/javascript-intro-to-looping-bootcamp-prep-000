@@ -26,14 +26,9 @@ function doWhileLoop(num){
           i = i + 1;
           return i;
         }
-        if (num===0)
-{
-    console.log("I run once regardless.")}
-    else
-    {
       do {
     console.log("I run once regardless.")}
     while (incrementVariable() <= num)
-    }
+    
     
 }
