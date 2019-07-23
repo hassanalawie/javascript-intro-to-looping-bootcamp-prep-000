@@ -23,7 +23,7 @@ function doWhileLoop(num){
   i=0
     function incrementVariable() 
         {
-          i = i++;
+          i = i + 1;
           return i;
         }
         if (num===0)
